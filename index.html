@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zsolt Varjú">
+    <meta name="description" content="my first try on the odin project admin dashboard panel">
+    <script src="https://kit.fontawesome.com/faf7415ea6.js" crossorigin="anonymous"></script>
+    <title>Admin dashboard</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<!-- Body starts here -->
+
+<body>
+
+    <section class="container">
+
+        <!-- Header starts here -->
+        <header>
+
+            <!-- Top header bar starts here -->
+            <section class="header__top">
+                <div class="header__top-container">
+                    <section class="header__top-top-container">
+                        <section class="header__top-fulltext-container">
+                            <button class="search-btn"><i class="fa-solid fa-search"></i></button>
+                            <input type="text" class="search-input" placeholder="Search...">
+                        </section>
+
+                        <section class="header__top-notification-container">
+                            <i class="fa-solid fa-people-group"></i>
+                        </section>
+
+                        <section class="header__top-profile-container">
+                            <img src="https://picsum.photos/200" alt="profile picture" height="50px" width="50px">
+                        </section>
+
+                        <section class="header__top-name-container">
+                            <h3>John Doe</h3>
+                        </section>
+                    </section>
+                    
+                    <section class="header__top-bottom-container">
+                        <section class="header__top-bottom-container-left">
+                            <div class="header__top-bottom-profile">
+                                <img src="https://picsum.photos/200" alt="profile picture" height="50px" width="50px">
+                            </div>
+                            
+                            <div class="header__top-bottom-name">
+                                <p>Hi there,</p>
+                                <h3>John Doe</h3>
+                            </div>
+
+                        </section>
+                        <section class="header__top-bottom-container-right">
+                            <button class="header__button">News</button>
+                            <button class="header__button">Upload</button>
+                            <button class="header__button">Share</button>
+                        </section>
+                    </section>
+
+
+                </div>
+            </section>
+            <!-- Top header bar ends here -->
+
+            <!-- Left navigation bar starts here -->
+            <section class="header__nav">
+                <div class="header__nav-container">
+                    <!-- Left navigation bar header starts here -->
+                    <section class="header__nav-title">
+                        <h1>Admin Dashboard</h1>
+                    </section>
+                    <!-- Left navigation bar header ends here -->
+
+                    <!-- Left navigation bar menu starts here -->
+                    <nav class="header__navbar">
+
+                        <!-- Left navigation bar main menu starts here -->
+                        <div class="header__navbar-main">
+                            <ul class="fa-ul">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-house"></i></span>Home
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-user"></i></span>Profile
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-message"></i></span>Messages
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-clock-rotate-left"></i></span>History
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-list-check"></i></span>Tasks
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-people-group"></i></span>Communities
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Left navigation bar main menu ends here -->
+
+                        <!-- Left navigation bar secondary menu starts here -->
+                        <div class="header__navbar-secondary">
+                            <ul class="fa-ul">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-gear"></i></span>Settings
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-question"></i></span>Support
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-shield-halved"></i></span>Privacy
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Left navigation bar secondary menu ends here -->
+                </div>
+
+
+            </section>
+            <!-- Left navigation bar ends here -->
+
+        </header>
+        <!-- top + left navigation bar ends here -->
+
+        <!-- Main content starts here -->
+        <main>
+            <section class="main__content">
+                <section class="main__content-header">
+                    <h2>Your projects</h2>
+                </section>
+                <section class="main__content-main-cards">
+                    <article class="card">
+                        <section class="card-title">
+                            <h3>Project 1</h3>
+                        </section>
+                        <section class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        </section>
+                        <section class="card__footer">
+                            <div class="card__footer-icons">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <i class="fas fa-trash"></i>
+                                <i class="fas fa-question"></i>
+                            </div>
+                        </section>
+                    </article>
+
+                    <article class="card">
+                        <section class="card-title">
+                            <h3>Project 2</h3>
+                        </section>
+                        <section class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        </section>
+                        <section class="card__footer">
+                            <div class="card__footer-icons">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <i class="fas fa-trash"></i>
+                                <i class="fas fa-question"></i>
+                            </div>
+                        </section>
+                    </article>
+
+                    <article class="card">
+                        <section class="card-title">
+                            <h3>Project 3</h3>
+                        </section>
+                        <section class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        </section>
+                        <section class="card__footer">
+                            <div class="card__footer-icons">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <i class="fas fa-trash"></i>
+                                <i class="fas fa-question"></i>
+                            </div>
+                        </section>
+                    </article>
+
+                    <article class="card">
+                        <section class="card-title">
+                            <h3>Project 4</h3>
+                        </section>
+                        <section class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        </section>
+                        <section class="card__footer">
+                            <div class="card__footer-icons">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <i class="fas fa-trash"></i>
+                                <i class="fas fa-question"></i>
+                            </div>
+                        </section>
+                    </article>
+
+                    <article class="card">
+                        <section class="card-title">
+                            <h3>Project 5</h3>
+                        </section>
+                        <section class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        </section>
+                        <section class="card__footer">
+                            <div class="card__footer-icons">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <i class="fas fa-trash"></i>
+                                <i class="fas fa-question"></i>
+                            </div>
+                        </section>
+                    </article>
+
+                    <article class="card">
+                        <section class="card-title">
+                            <h3>Project 6</h3>
+                        </section>
+                        <section class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        </section>
+                        <section class="card__footer">
+                            <div class="card__footer-icons">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <i class="fas fa-trash"></i>
+                                <i class="fas fa-question"></i>
+                            </div>
+                        </section>
+                    </article>
+                </section>
+
+
+                <section class="main__content-side-card">
+                    <div class="side-box">
+
+                        <section class="side-box-title">
+                            <h2>Announcments</h2>
+                        </section>
+
+                        <article class="side-card">
+                            <div class="content-box">
+                                <h3>Announcment 1</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            </div>
+                            <div class="content-box">
+                                <h3>Announcment 2</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            </div>
+                            <div class="content-box">
+                                <h3>Announcment 3</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="side-box">
+
+                        <section class="side-box-title">
+                            <h2>Trending</h2>
+                        </section>
+
+                        <article class="side-card">
+                            <div class="content-box">
+                                <h3>Trending 1</h3>
+                                <p>Three random words</p>
+                            </div>
+                            <div class="content-box">
+                                <h3>Trending 2</h3>
+                                <p>Three random words</p>
+                            </div>
+                            <div class="content-box">
+                                <h3>Trending 3</h3>
+                                <p>Three random words</p>
+                            </div>
+                            <div class="content-box">
+                                <h3>Trending 4</h3>
+                                <p>Three random words</p>
+                            </div>
+                        </article>
+                    </div>
+
+
+                </section>
+            </section>
+        </main>
+    </section>
+
+
+</body>
+<!-- body ends here -->
+
+</html>
